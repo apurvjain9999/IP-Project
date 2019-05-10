@@ -1,0 +1,15 @@
+<?php
+?>
+<html>
+<head>
+<title>PHP Form Upload
+</title>
+</head>
+<body>  
+<form method='post' action='picupload.php' enctype='multipart/form-data'>    
+Select a JPG, GIF, PNG or TIF File: <input type='file' name='filename' size='10'><input type='submit' value='Upload'>
+</form>
+</body>
+</html>
+<?php
+?>
